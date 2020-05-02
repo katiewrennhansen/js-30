@@ -1,0 +1,70 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(222, 243, 222);
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+
+  
+input,
+button,
+select,
+textarea {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 0;
+  font-size: 1.5rem;
+  background: #F7F7F7;
+  outline: 0;
+}
+
+label {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+}
+
+.button-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.campgrounds-container {
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.campgrounds-container h2 {
+    text-align: center;
+}
+
+.campgrounds {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.camp {
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.228);
+    margin: 30px;
+}
+
+.camp img {
+    width: 100%;
+}
+
+.camp .info {
+    display: none;
+}
